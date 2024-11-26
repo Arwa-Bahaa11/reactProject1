@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav li a.active{
+
+    background-color: #1abc9c;
+}
+
+.Home-section img{
+    
+    width: 250px;
+    
+}
+.line{
+    width: 80px;
+    height: 4px;
+    
+}
+.fa-star{
+    margin-top: -5px;
+}
+
+.Home-component {
+    margin-top: 65px;
+    min-height: calc(-106px + 100vh);
+    padding: 100px;
+    padding-bottom: 60px;
+}
+
+.footer{
+    padding: 40px;
+}
+.end-footer{
+    background-color: #1a252f;
+    padding: 10px;
+   
+    
+}
+.portfolio-component{
+    margin-top: 156px;
+    min-height: calc(-106px + 100vh);
+}
+
+nav .container,
+
+.portfolio-component .container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-component{
+    margin-top: 86px;
+    min-height: calc(-106px + 100vh);
+    padding:150px
+}
+
+.contact-component{
+    margin-top: 86px;
+    min-height: calc(-106px + 100vh);
+    padding:1rem;
+}
+input{
+    border:0;
+    border-bottom: 1px solid #dee2e6;
+}
+.form-section{
+    margin: 0px 400px;
+}
